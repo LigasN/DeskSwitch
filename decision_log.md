@@ -13,3 +13,7 @@
 ## Side Wall Mounting Tongue
 * Height: 1.6 mm
 * Depth: 3.2 mm
+
+## Gaps
+* For the cables connected to the dwitch: 9 mm
+* Gap from the walls to the switch mounting: 1mm
