@@ -36,3 +36,4 @@
 * Depth: 10 mm (required length = screw length - enclosure wall width: 11.3 mm - 2.6 mm = 8.7 mm)
 * Screw diameter: 3 mm
 * Screw root diameter: 1.8 mm
+* Screw opening in the anclosure: 2 mm
