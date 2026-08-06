@@ -27,13 +27,20 @@
 * Width: 11 mm
 * Depth: 11 mm
 ### Corner Brackets
-  * Width: 1 mm
-  * Height 2 mm
+* Width: 1 mm
+* Height 2 mm
+### Pilot Holes
+* Diameter: 1.8 mm (screw root diameter: 1.9 mm, screw thread diameter: 2.9 mm)
+* Depth: 4.5 mm (screw thread length: 9.6 mm, meanwell clearance hole depth: 3.4 mm, screw depth: 6.2 mm)
+* Perimeters: 4-5
 
 ## Enclosure Boss
 * Height: 4.4 mm (part of the screw will go through the base plate, with it's width it gives 8 mm)
 * Width: 8 mm
-* Depth: 10 mm (required length = screw length - enclosure wall width: 11.3 mm - 2.6 mm = 8.7 mm)
-* Screw diameter: 3 mm
-* Screw root diameter: 1.8 mm
+* Depth: 10 mm (required length = screw length - enclosure wall width: 9 mm - 2.6 mm = 6.4 mm)
+* Screw thread diameter: 2.4 mm
+* Screw root diameter: 1.9 mm
+* Screw diameter: 4.1 mm
+* Screw head height: 1.6 mm
 * Screw opening in the anclosure: 2 mm
+
