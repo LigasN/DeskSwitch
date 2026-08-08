@@ -42,5 +42,8 @@
 * Screw root diameter: 1.9 mm
 * Screw diameter: 4.1 mm
 * Screw head height: 1.6 mm
-* Screw opening in the anclosure: 2 mm
-
+* Screw opening in the enclosure diameter: 2 mm
+### Pilot Hole
+* Diameter: 1.8 mm
+* Depth: 6.5 mm (screw insertion depth plus margin)
+* Perimeters: 4-5
