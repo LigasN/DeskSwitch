@@ -22,6 +22,15 @@
 * Height: 0.2 mm (equal to margin between slider and slide track)
 * Length: 3 mm
 
+## Under-Desk Mounting
+* Screw Type: Pan head wood screws (4.0 mm x 16 mm)
+* Quantity: 4 (corners)
+### Base Plate Clearance Holes
+* Hole Diameter: 4.5 mm (smooth pass-through)
+### Desk Pilot Holes
+* Hole Diameter: 3.0 mm
+* Hole Depth: 12 mm
+
 ## Mounting Standoffs
 * Height: 5 mm
 * Width: 11 mm
