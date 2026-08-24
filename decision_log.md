@@ -23,13 +23,21 @@
 * Length: 3 mm
 
 ## Under-Desk Mounting
-* Screw Type: Pan head wood screws (4.0 mm x 16 mm)
+* Screw Type: Pan head wood screws
 * Quantity: 4 (corners)
+### Measured Screw Specs
+* Thread Diameter: 3.8 mm
+* Root Diameter: 2.5 mm
+* Head Diameter: 7.5 mm
+* Head Height: 2.8 mm
+* Neck Expansion: 4.0 mm (height: 1.5 mm)
+* Screw Length: 15.5 mm
 ### Base Plate Clearance Holes
-* Hole Diameter: 4.5 mm (smooth pass-through)
-### Desk Pilot Holes
-* Hole Diameter: 3.0 mm
-* Hole Depth: 12 mm
+* Hole Diameter: 4.5 mm
+* Head Seating Surface: Flat
+### Desk Pilot Holes & Engagement
+* Pilot Hole Diameter: 2.5 mm
+* Pilot Hole Depth: 12.0 mm
 
 ## Mounting Standoffs
 * Height: 5 mm
