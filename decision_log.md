@@ -35,6 +35,8 @@
 ### Base Plate Clearance Holes
 * Hole Diameter: 4.5 mm
 * Head Seating Surface: Flat
+* Min Wall Width Around Hole: 1.2 mm
+* Min Clearance to Screw Head Edge: 0.5 mm
 ### Desk Pilot Holes & Engagement
 * Pilot Hole Diameter: 2.5 mm
 * Pilot Hole Depth: 12.0 mm
