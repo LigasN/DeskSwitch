@@ -66,3 +66,26 @@
 * Diameter: 1.8 mm
 * Depth: 6.5 mm (screw insertion depth plus margin)
 * Perimeters: 4-5
+
+## Ventilation & Cooling Grids (Dual-Color Hex Grid)
+
+### Print Specification (0.2 mm Nozzle)
+| Parameter | Value | Notes / Calculation |
+| :--- | :--- | :--- |
+| **Nozzle Profile** | `0.2 mm` | Line width: `0.20 mm` – `0.22 mm` |
+| **Total Panel Thickness** | `2.6 mm` | Aligned with main enclosure wall thickness |
+| **Main Hexagon (Frame - Color A)** | `Ø 10.0 mm` | Outer hexagon diameter |
+| **Frame A Wall Thickness** | `1.2 mm` | Exactly 6 wall lines for 0.2 mm nozzle |
+| **Micro-mesh (Infill - Color B)** | `Ø 1.2 mm` | Hexagonal mesh cell size |
+| **Micro-mesh Rib Thickness B** | `0.6 mm` | Exactly 3 full wall lines for 0.2 mm nozzle |
+| **Material Overlap (MMU/AMS)** | `0.4 mm` | Exactly 2 wall lines per side; leaves an equal 0.4 mm (2 wall lines) central Frame A spine |
+
+### Z-Axis Layout (2.6 mm Wall Cross-Section)
+* **0.0 mm – 0.6 mm (Exterior):** Front protective lip (Frame A) – Recessed micro-mesh for aesthetics and mechanical protection.
+* **0.6 mm – 1.8 mm (Core):** Main micro-mesh structure (Color B) with a height of `1.2 mm`.
+* **1.8 mm – 2.6 mm (Interior):** Rear stiffening lip (Frame A) at `0.8 mm` thick, reinforcing the enclosure structure from inside.
+
+### Technical Rationale & Decisions
+* **100% Solid Wall Alignment:** The `0.6 mm` micro-rib width and `1.2 mm` frame thickness divide cleanly into 3 and 6 perimeter paths for a `0.2 mm` nozzle, resulting in 100% solid wall density with continuous extrusion loops.
+* **Passive Convection:** The ratio of cell size (`1.2 mm`) to rib thickness (`0.6 mm`) maintains high airflow permeability for passive cooling while ensuring high structural rigidity.
+* **Perfect 2:2:2 Perimeter Distribution:** Splitting the `1.2 mm` frame wall into three equal `0.4 mm` segments (2 lines Color B overlap / 2 lines Color A central spine / 2 lines Color B overlap) completely eliminates fractional toolpaths. This yields maximum mechanical interlock while maintaining structural continuity in Z.
