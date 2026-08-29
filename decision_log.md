@@ -75,7 +75,7 @@
 | **Nozzle Profile** | `0.2 mm` | Line width: `0.20 mm` – `0.22 mm` |
 | **Total Panel Thickness** | `2.6 mm` | Aligned with main enclosure wall thickness |
 | **Main Hexagon (Frame - Color A)** | `Ø 10.0 mm` | Outer hexagon diameter |
-| **Frame A Wall Thickness** | `1.2 mm` | Exactly 6 wall lines for 0.2 mm nozzle |
+| **Frame A Rib Thickness** | `1.2 mm` | Exactly 6 wall lines for 0.2 mm nozzle |
 | **Micro-mesh (Infill - Color B)** | `Ø 1.2 mm` | Hexagonal mesh cell size |
 | **Micro-mesh Rib Thickness B** | `0.6 mm` | Exactly 3 full wall lines for 0.2 mm nozzle |
 | **Material Overlap (MMU/AMS)** | `0.4 mm` | Exactly 2 wall lines per side; leaves an equal 0.4 mm (2 wall lines) central Frame A spine |
