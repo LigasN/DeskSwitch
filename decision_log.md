@@ -15,8 +15,8 @@
 * Depth: 3.2 mm
 
 ## Gaps
-* For the cables connected to the dwitch: 9 mm
-* Gap from the walls to the switch mounting: 1mm
+* For the cables connected to the switch: 9 mm
+* Gap from the walls to the switch mounting: 1 mm
 
 ## Seating step (Slider and Slide Track)
 * Height: 0.2 mm (equal to margin between slider and slide track)
@@ -47,14 +47,14 @@
 * Depth: 11 mm
 ### Corner Brackets
 * Width: 1 mm
-* Height 2 mm
+* Height: 2 mm
 ### Pilot Holes
 * Diameter: 1.8 mm (screw root diameter: 1.9 mm, screw thread diameter: 2.9 mm)
 * Depth: 4.5 mm (screw thread length: 9.6 mm, meanwell clearance hole depth: 3.4 mm, screw depth: 6.2 mm)
 * Perimeters: 4-5
 
 ## Enclosure Boss
-* Height: 4.4 mm (part of the screw will go through the base plate, with it's width it gives 8 mm)
+* Height: 4.4 mm (part of the screw will go through the base plate, with its width it gives 8 mm)
 * Width: 8 mm
 * Depth: 10 mm (required length = screw length - enclosure wall width: 9 mm - 2.6 mm = 6.4 mm)
 * Screw thread diameter: 2.4 mm
@@ -75,10 +75,10 @@
 | **Nozzle Profile** | `0.2 mm` | Line width: `0.20 mm` – `0.22 mm` |
 | **Total Panel Thickness** | `2.6 mm` | Aligned with main enclosure wall thickness |
 | **Main Hexagon (Frame - Color A)** | `Ø 10.0 mm` | Outer hexagon diameter |
-| **Frame A Rib Thickness** | `1.2 mm` | Exactly 6 wall lines for 0.2 mm nozzle |
+| **Frame A Rib Thickness** | `1.8 mm` | Exactly 9 full wall lines for 0.2 mm nozzle (updated) |
 | **Micro-mesh (Infill - Color B)** | `Ø 1.2 mm` | Hexagonal mesh cell size |
 | **Micro-mesh Rib Thickness B** | `0.6 mm` | Exactly 3 full wall lines for 0.2 mm nozzle |
-| **Material Overlap (MMU/AMS)** | `0.4 mm` | Exactly 2 wall lines per side; leaves an equal 0.4 mm (2 wall lines) central Frame A spine |
+| **Material Overlap (MMU/AMS)** | `0.6 mm` | Exactly 3 wall lines per side; ensures robust mechanical interlock (updated) |
 
 ### Z-Axis Layout (2.6 mm Wall Cross-Section)
 * **0.0 mm – 0.6 mm (Exterior):** Front protective lip (Frame A) – Recessed micro-mesh for aesthetics and mechanical protection.
@@ -86,6 +86,6 @@
 * **1.8 mm – 2.6 mm (Interior):** Rear stiffening lip (Frame A) at `0.8 mm` thick, reinforcing the enclosure structure from inside.
 
 ### Technical Rationale & Decisions
-* **100% Solid Wall Alignment:** The `0.6 mm` micro-rib width and `1.2 mm` frame thickness divide cleanly into 3 and 6 perimeter paths for a `0.2 mm` nozzle, resulting in 100% solid wall density with continuous extrusion loops.
+* **100% Solid Wall Alignment:** The `0.6 mm` micro-rib width and `1.8 mm` frame thickness divide cleanly into 3 and 9 perimeter paths for a `0.2 mm` nozzle, resulting in 100% solid wall density with continuous extrusion loops.
 * **Passive Convection:** The ratio of cell size (`1.2 mm`) to rib thickness (`0.6 mm`) maintains high airflow permeability for passive cooling while ensuring high structural rigidity.
-* **Perfect 2:2:2 Perimeter Distribution:** Splitting the `1.2 mm` frame wall into three equal `0.4 mm` segments (2 lines Color B overlap / 2 lines Color A central spine / 2 lines Color B overlap) completely eliminates fractional toolpaths. This yields maximum mechanical interlock while maintaining structural continuity in Z.
+* **Robust Mechanical Interlock:** Utilizing a `0.6 mm` material overlap provides a solid 3-wall connection per side, completely eliminating fractional toolpaths and securely locking the micro-mesh into the main frame while maintaining structural continuity in Z.
