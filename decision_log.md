@@ -70,15 +70,15 @@
 ## Ventilation & Cooling Grids (Dual-Color Hex Grid)
 
 ### Print Specification (0.2 mm Nozzle)
-| Parameter | Value | Notes / Calculation |
-| :--- | :--- | :--- |
-| **Nozzle Profile** | `0.2 mm` | Line width: `0.20 mm` – `0.22 mm` |
-| **Total Panel Thickness** | `2.6 mm` | Aligned with main enclosure wall thickness |
-| **Main Hexagon (Frame - Color A)** | `Ø 10.0 mm` | Outer hexagon diameter |
-| **Frame A Rib Thickness** | `1.8 mm` | Exactly 9 full wall lines for 0.2 mm nozzle (updated) |
-| **Micro-mesh (Infill - Color B)** | `Ø 1.2 mm` | Hexagonal mesh cell size |
-| **Micro-mesh Rib Thickness B** | `0.6 mm` | Exactly 3 full wall lines for 0.2 mm nozzle |
-| **Material Overlap (MMU/AMS)** | `0.6 mm` | Exactly 3 wall lines per side; ensures robust mechanical interlock (updated) |
+| Parameter                          | Value       | Notes / Calculation                                                          |
+| :--------------------------------- | :---------- | :--------------------------------------------------------------------------- |
+| **Nozzle Profile**                 | `0.2 mm`    | Line width: `0.20 mm` – `0.22 mm`                                            |
+| **Total Panel Thickness**          | `2.6 mm`    | Aligned with main enclosure wall thickness                                   |
+| **Main Hexagon (Frame - Color A)** | `Ø 10.0 mm` | Outer hexagon diameter                                                       |
+| **Frame A Rib Thickness**          | `1.8 mm`    | Exactly 9 full wall lines for 0.2 mm nozzle (updated)                        |
+| **Micro-mesh (Infill - Color B)**  | `Ø 1.2 mm`  | Hexagonal mesh cell size                                                     |
+| **Micro-mesh Rib Thickness B**     | `0.6 mm`    | Exactly 3 full wall lines for 0.2 mm nozzle                                  |
+| **Material Overlap (MMU/AMS)**     | `0.6 mm`    | Exactly 3 wall lines per side; ensures robust mechanical interlock (updated) |
 
 ### Z-Axis Layout (2.6 mm Wall Cross-Section)
 * **0.0 mm – 0.6 mm (Exterior):** Front protective lip (Frame A) – Recessed micro-mesh for aesthetics and mechanical protection.
@@ -89,3 +89,10 @@
 * **100% Solid Wall Alignment:** The `0.6 mm` micro-rib width and `1.8 mm` frame thickness divide cleanly into 3 and 9 perimeter paths for a `0.2 mm` nozzle, resulting in 100% solid wall density with continuous extrusion loops.
 * **Passive Convection:** The ratio of cell size (`1.2 mm`) to rib thickness (`0.6 mm`) maintains high airflow permeability for passive cooling while ensuring high structural rigidity.
 * **Robust Mechanical Interlock:** Utilizing a `0.6 mm` material overlap provides a solid 3-wall connection per side, completely eliminating fractional toolpaths and securely locking the micro-mesh into the main frame while maintaining structural continuity in Z.
+
+## Cable clamp
+* Minimal wall width: 1.2 mm
+* Minimal height of the top guide rail: 0.9 mm
+* Cable radious: 4 mm - 7 mm
+* Screw: M2
+* Base wall min width: 3 mm
