@@ -91,8 +91,24 @@
 * **Robust Mechanical Interlock:** Utilizing a `0.6 mm` material overlap provides a solid 3-wall connection per side, completely eliminating fractional toolpaths and securely locking the micro-mesh into the main frame while maintaining structural continuity in Z.
 
 ## Cable clamp
-* Minimal wall width: 1.2 mm
-* Minimal height of the top guide rail: 0.9 mm
+* Minimal wall width: 2 mm
+* Minimal height of the top guide rail: 1.6 mm
 * Cable radious: 4 mm - 7 mm
-* Screw: M2
 * Base wall min width: 3 mm
+
+### Screw M2:
+* Thread length: 20 mm
+* Thread diameter: 2 mm
+* Opening diameter: 2.2 mm
+
+#### Head
+* Diameter: 3.7 mm
+* Height: 1.9 mm
+
+#### Nut
+* Width across corners: 4.5 mm
+* Thickness: 1.5 mm
+
+#### Flat Washer
+* Outer Diameter: 4.9 mm
+* Thickness: 0.2 mm
