@@ -112,3 +112,6 @@
 #### Flat Washer
 * Outer Diameter: 4.9 mm
 * Thickness: 0.2 mm
+
+## LW26 Mounting
+I have decided not to use the dimensions from the LW26 model (https://www.thingiverse.com/thing:3611525/files) as it is not exactly the same as the one I bought. However, it still remains in the project as a visual model of the future part.
