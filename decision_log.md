@@ -115,3 +115,21 @@
 
 ## LW26 Mounting
 I have decided not to use the dimensions from the LW26 model (https://www.thingiverse.com/thing:3611525/files) as it is not exactly the same as the one I bought. However, it still remains in the project as a visual model of the future part.
+
+### Knob
+* Width: 5 mm
+* Cylinder: 15 mm
+* Opening: 16 mm
+
+### Screw
+* Thread diameter: max 3.88 mm
+* Opening: 4.5 mm
+* Opening to side distance: 4.2 mm
+
+### Anti-Rotation Alignment Blocks
+### Anti-Rotation Alignment Blocks
+* **Design Type:** Point-contact wall ribs (replacing continuous walls) to allow easy manual post-processing and filing if necessary.
+* **Placement:** Two ribs per wall, positioned at approximately 1/3 and 2/3 of each wall's length (total of 8 ribs across 4 walls).
+* **Rib Width:** 1.6 mm
+* **Rib Length (Span along wall):** 8.0 mm
+* **Height:** 4.0 mm
