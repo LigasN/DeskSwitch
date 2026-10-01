@@ -2,9 +2,9 @@
 
 ## Wall Widths
 * Base Plate: 3.6 mm
-* Front wall: 2.6 mm
-* Side walls: 2.6 mm
-* Back wall: 2.6 mm
+* Front Wall: 2.6 mm
+* Side Walls: 2.6 mm
+* Back Wall: 2.6 mm
 
 ## Base Plate Slide Track
 * Height: 1.8 mm
@@ -66,6 +66,14 @@
 * Diameter: 1.8 mm
 * Depth: 6.5 mm (screw insertion depth plus margin)
 * Perimeters: 4-5
+
+## Faceplate
+* Wall thickness: 1 mm
+* Flange depth (sides & bottom): Core body wall thickness (2.6 mm)
+* Flange width: 2.8 mm
+* Top Flange: Designed as a pair of alignment ribs extending along the flange depth behind the front wall.
+* Perimeters: 4–5
+* Orientation: Printed flat on the print bed for a pristine surface finish.
 
 ## Ventilation & Cooling Grids (Dual-Color Hex Grid)
 
