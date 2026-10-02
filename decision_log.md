@@ -130,6 +130,9 @@
 ## LW26 Mounting
 I have decided not to use the dimensions from the LW26 model (https://www.thingiverse.com/thing:3611525/files) as it is not exactly the same as the one I bought. However, it still remains in the project as a visual model of the future part.
 
+### Main Shaft / Central Opening
+* Diameter: 16.0 mm (clearance for the main rotary shaft/axis of the LW26 switch)
+
 ### Knob
 * Width: 5 mm
 * Cylinder: 15 mm
@@ -137,8 +140,8 @@ I have decided not to use the dimensions from the LW26 model (https://www.thingi
 
 ### Screw
 * Thread diameter: max 3.88 mm
-* Opening: 4.5 mm
-* Opening to side distance: 4.2 mm
+* Clearance Opening: 5.0 mm (0.5 mm tolerance/clearance; rotation locking and positioning handled entirely by alignment ribs, screws serve clamping function only)
+* Opening edge distance to the center of knob opening: 17.92 mm
 
 ### Anti-Rotation Alignment Blocks
 * **Design Type:** Point-contact wall ribs (replacing continuous walls) to allow easy manual post-processing and filing if necessary.
