@@ -54,17 +54,27 @@
 * Perimeters: 4-5
 
 ## Enclosure Boss
+### Screw
+* Length: 9.1 mm
+* Head length: 1.5 mm
+* Thread length: 7.6 mm
+* Thread diameter: 2.44 mm
+* Root diameter: 1.9 mm
+* Head diameter: 4.24 mm
+
+### Screw Boss
 * Height: 4.4 mm (part of the screw will go through the base plate, with its width it gives 8 mm)
-* Width: 8 mm
-* Depth: 10 mm (required length = screw length - enclosure wall width: 9 mm - 2.6 mm = 6.4 mm)
-* Screw thread diameter: 2.4 mm
-* Screw root diameter: 1.9 mm
-* Screw diameter: 4.1 mm
-* Screw head height: 1.6 mm
-* Screw opening in the enclosure diameter: 2 mm
+* Width: 8 mm (edit: +1 mm to the opposite side to cable clamp to make it harder to break)
+* Depth: 10 mm (required length = pilot hole depth + margin)
+
+### Screw Hole
+* Opening in the enclosure diameter: 2.6 mm
+* Head counterbore diameter: 4.4 mm
+* Head counterbore length: 1.6 mm
+  
 ### Pilot Hole
-* Diameter: 1.8 mm
-* Depth: 6.5 mm (screw insertion depth plus margin)
+* Diameter: 2.2 mm
+* Depth: 7.6 mm (screw root length - (wall width - head counterbore length) + margin (1 mm))
 * Perimeters: 4-5
 
 ## Faceplate
