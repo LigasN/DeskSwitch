@@ -159,3 +159,12 @@ I have decided not to use the dimensions from the LW26 model (https://www.thingi
 * **Rib Width:** 1.6 mm
 * **Rib Length (Span along wall):** 8.0 mm
 * **Height:** 4.0 mm
+
+## Crossbars
+* Width: 7 mm
+* Depth: 0.8 mm (because of the place for LW26 inside)
+
+## Front face aligment pins
+* Single wall width: 5 mm
+* Single wall depth: 1.6 mm
+* Pin length: ~3.7 mm
